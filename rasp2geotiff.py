@@ -1,10 +1,8 @@
 #!/usr/bin/env python
-import xcsoar
 import osr
 import gdal
 import numpy as np
-import os, sys
-import math
+import sys
 
 idx_min_x = idx_max_x = idx_min_y = idx_max_y = 0
 spa_x = spa_y = 0
