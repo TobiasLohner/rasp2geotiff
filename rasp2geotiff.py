@@ -59,7 +59,7 @@ for line in open(sys.argv[1]):
 
     if line.startswith('Model='):
         get_parameters(line)
-        raster_data = np.zeros((idx_max_x - idx_min_x + 1, idx_max_y - idx_min_y + 1), dtype=np.float32)
+        raster_data = np.zeros((idx_max_y - idx_min_y + 1, idx_max_x - idx_min_x + 1), dtype=np.float32)
 
     if i >= 5:
         read_data(line, i - 5)
